@@ -77,8 +77,6 @@ a.see-more{
 	.hebergements-cards a {
 		width: 30%;
 	}
-	.hebergements-cards .card {
-	}
 }
 
 /* Small devices (phones, less than 768px) */
@@ -87,7 +85,6 @@ a.see-more{
 		order: 2;
 		background: white !important;
 		padding: 0 35px;
-      
 	}
 
 	.hebergements-cards {
