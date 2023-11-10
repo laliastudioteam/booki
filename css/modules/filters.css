@@ -1,0 +1,150 @@
+/*Filters */
+.filters {
+	margin-bottom: 20px;
+}
+
+.filters-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.filters-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.filters-title {
+	font-family: var(--body-font);
+	font-size: 18px;
+	font-weight: 700;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.filters-button {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    align-items: center;
+	font-family: var(--body-font);
+	font-size: 17px;
+	border-radius: 25px;
+	background-color: white;
+	border: 2px solid #d9d9d9;
+	height: 50px;
+	padding: 4px 19px 4px 19px;
+}
+.filters-button:hover {
+	background-color: #deebff;
+}
+.filters-button-icon {
+	vertical-align: middle;
+    padding: 0px 5px 0px 5px;
+}
+.filters-text-button {
+	font-family: var(--body-font);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18.78px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.filters-informations {
+	font-family: var(--body-font);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.78px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.filters-button-informations {
+	border: 1px solid #d9d9d9;
+	border-radius: 25px;
+	background: white;
+}
+
+.picto_dollar {
+	width: 22px;
+	height: 16.26px;
+}
+.picto_personnage {
+	width: 22px;
+	height: 13.44px;
+}
+.picto_coeur {
+	width: 22px;
+	height: 18.33px;
+}
+.picto_feu {
+	width: 18px;
+	height: 20.08px;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+	.filters-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.filters-button {
+		font-family: var(--body-font);
+		font-size: 17px;
+		border-radius: 25px;
+		background-color: white;
+		border: 2px solid #d9d9d9;
+		height: 50px;
+		padding: 4px 19px 4px 19px;
+	}
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .filters{
+        padding:0 15px;
+    }
+	.filters-list {
+		display: flex;
+		flex-direction: row;
+        justify-content:center;
+	}
+	.filters-group {
+		display: flex;
+		flex-direction: row;
+		justify-content: stretch;
+		justify-content: flex-start;
+		
+
+		gap: 15px;
+	}
+	.filters-button {
+		font-family: var(--body-font);
+		font-size: 14px;
+		border-radius: 25px;
+		background-color: white;
+		border: 2px solid #d9d9d9;
+		height: 50px;
+		width: 47%;
+		box-sizing: border-box;
+		padding: 4px 9px 4px 9px;
+		margin: 0;
+        flex-wrap: wrap;
+	}
+
+    .filters-text-button {
+
+        font-size: 14px;
+
+    }
+    .filters-button-icon {
+        padding: 0px 10px 0px 10px;
+    }
+}
