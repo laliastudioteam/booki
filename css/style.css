@@ -1,20 +1,21 @@
 /* Import modules*/
 /****** Chargement des classes des modules ***********/
 
+/* Chargements des styles du Header, toutes média Query*/
 @import url("modules/header.css") screen;
-
+/* Chargements des styles du moteur de recherche, toutes média Query*/
 @import url("modules/search.css") screen;
-
+/* Chargements des styles du Footer, toutes média Query*/
 @import url("modules/footer.css") screen;
-
+/* Chargements des styles des filtres, toutes média Query*/
 @import url("modules/filters.css") screen;
-
+/* Chargements des styles des activités, toutes média Query*/
 @import url("modules/activities.css") screen;
-
+/* Chargements des styles de l'hébérgement, toutes média Query*/
 @import url("modules/hebergements.css") screen;
-
+/* Chargements des styles de populaires, toutes média Query*/
 @import url("modules/populaires.css") screen;
-
+/* Chargements des styles des animations toutes média Query*/
 @import url("animations.css") screen;
 
 /****** General ***********/
