@@ -2,7 +2,7 @@
 
 .hebergements {
 	width: 65%;
-    padding: 30px;
+	padding: 30px;
 }
 
 .hebergements-cards {
@@ -19,8 +19,8 @@ a.hebergement-card-link {
 	width: 32%;
 	padding: 0;
 	margin: 0;
-    display:flex;
-    box-sizing: border-box;
+	display: flex;
+	box-sizing: border-box;
 }
 .hebergements-cards .card {
 	margin-top: 33px;
@@ -46,19 +46,19 @@ a.hebergement-card-link {
 }
 
 .hebergements-cards .card-subtitle {
-    font-size: 13px;
-    margin-bottom:5px;
+	font-size: 13px;
+	margin-bottom: 5px;
 }
 
 .hebergements-cards .card-rating {
 	margin-bottom: 5px;
 }
 
-a.see-more{
-    font-weight:700;
-    font-size:18px;
-    margin-top:30px;
-    display:block
+a.see-more {
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 30px;
+	display: block;
 }
 
 /****** Media queries ***********/
@@ -90,9 +90,9 @@ a.see-more{
 	.hebergements-cards {
 		flex-direction: column;
 	}
-    a.hebergement-card-link {
+	a.hebergement-card-link {
 		width: 100%;
-        margin-top:5px;
+		margin-top: 5px;
 	}
 	.hebergements-cards .card {
 		width: 100%;

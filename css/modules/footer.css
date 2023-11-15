@@ -1,64 +1,61 @@
 /*Footer*/
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: var(--main-bg-color);
-    margin-top: 30px;
-    gap: 20%;
-  }
- .column-footer {
- 
-    padding: 20px;
-  }
-  
-  .footer-head {
-    font-size: 18px;
-    font-weight: 700;
-  }
-  
-  .footer-list {
-    list-style: none;
-    padding: 0px;
-    margin: 0;
-  }
-  
-  .footer-list li {
-    list-style: none;
-    padding: 0 0 5px 0px;
-    margin: 0;
-  }
-  
-  .footer-list li a:hover {
-    color: var(--main-color);
-  }
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: var(--main-bg-color);
+	margin-top: 30px;
+	gap: 20%;
+}
+.column-footer {
+	padding: 20px;
+}
 
- /****** Media queries ***********/
+.footer-head {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.footer-list {
+	list-style: none;
+	padding: 0px;
+	margin: 0;
+}
+
+.footer-list li {
+	list-style: none;
+	padding: 0 0 5px 0px;
+	margin: 0;
+}
+
+.footer-list li a:hover {
+	color: var(--main-color);
+}
+
+/****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-  @media (max-width: 1024px) {
-    footer {
-    gap:10%;
-      }
-      .column-footer {
- 
-        padding: 10px;
-      }
-  }
-  /* Small devices (phones, less than 768px) */
+@media (max-width: 1024px) {
+	footer {
+		gap: 10%;
+	}
+	.column-footer {
+		padding: 10px;
+	}
+}
+/* Small devices (phones, less than 768px) */
 
-  @media (max-width: 767.98px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: var(--main-bg-color);
-        margin-top: 30px;
-        padding:0 15px;
-    gap:0;
-      }
-      .column-footer {
- 
-        padding: 10px;
-      }
-  }
+@media (max-width: 767.98px) {
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		background-color: var(--main-bg-color);
+		margin-top: 30px;
+		padding: 0 15px;
+		gap: 0;
+	}
+	.column-footer {
+		padding: 10px;
+	}
+}

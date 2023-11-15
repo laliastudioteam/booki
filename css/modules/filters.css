@@ -26,10 +26,10 @@
 	align-items: center;
 }
 .filters-button {
-    display: flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-    align-items: center;
+	align-items: center;
 	font-family: var(--body-font);
 	font-size: 17px;
 	border-radius: 25px;
@@ -43,7 +43,7 @@
 }
 .filters-button-icon {
 	vertical-align: middle;
-    padding: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
 }
 .filters-text-button {
 	font-family: var(--body-font);
@@ -107,21 +107,19 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
-    .filters{
-        padding:0 15px;
-    }
+	.filters {
+		padding: 0 15px;
+	}
 	.filters-list {
 		display: flex;
 		flex-direction: row;
-        justify-content:center;
+		justify-content: center;
 	}
 	.filters-group {
 		display: flex;
 		flex-direction: row;
 		justify-content: stretch;
 		justify-content: flex-start;
-		
 
 		gap: 15px;
 	}
@@ -136,15 +134,13 @@
 		box-sizing: border-box;
 		padding: 4px 9px 4px 9px;
 		margin: 0;
-        flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 
-    .filters-text-button {
-
-        font-size: 14px;
-
-    }
-    .filters-button-icon {
-        padding: 0px 10px 0px 10px;
-    }
+	.filters-text-button {
+		font-size: 14px;
+	}
+	.filters-button-icon {
+		padding: 0px 10px 0px 10px;
+	}
 }

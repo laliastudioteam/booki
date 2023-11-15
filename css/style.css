@@ -3,18 +3,25 @@
 
 /* Chargements des styles du Header, toutes média Query*/
 @import url("modules/header.css") screen;
+
 /* Chargements des styles du moteur de recherche, toutes média Query*/
 @import url("modules/search.css") screen;
+
 /* Chargements des styles du Footer, toutes média Query*/
 @import url("modules/footer.css") screen;
+
 /* Chargements des styles des filtres, toutes média Query*/
 @import url("modules/filters.css") screen;
+
 /* Chargements des styles des activités, toutes média Query*/
 @import url("modules/activities.css") screen;
+
 /* Chargements des styles de l'hébérgement, toutes média Query*/
 @import url("modules/hebergements.css") screen;
+
 /* Chargements des styles de populaires, toutes média Query*/
 @import url("modules/populaires.css") screen;
+
 /* Chargements des styles des animations toutes média Query*/
 @import url("animations.css") screen;
 
@@ -98,13 +105,11 @@ a {
 	box-sizing: border-box;
 }
 
-
 /* Centre */
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -115,7 +120,6 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-   
 	.main-container {
 		padding: 0 0px;
 	}
@@ -123,9 +127,8 @@ a {
 		padding: 0px;
 	}
 
-    .hebergements-and-populaires section {
-        border-radius:0px;
-        padding: 30px 20px;
-
-    }
+	.hebergements-and-populaires section {
+		border-radius: 0px;
+		padding: 30px 20px;
+	}
 }
