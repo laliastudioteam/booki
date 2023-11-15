@@ -27,7 +27,6 @@ a.activity-card-link {
 	width: 30%;
 	margin-top: 10px;
 	padding: 0;
-	width: 25%;
 }
 
 .activities-cards img {
@@ -38,9 +37,9 @@ a.activity-card-link {
 }
 
 .activities-cards .card-content {
-	padding-left: 15px;
-    padding-right:15px;
+	padding: 15px;
 	width: 90%;
+
 }
 
 .activities-cards .card-title {
