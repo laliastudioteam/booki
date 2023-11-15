@@ -39,7 +39,8 @@ a.activity-card-link {
 
 .activities-cards .card-content {
 	padding-left: 15px;
-	width: 100%;
+    padding-right:15px;
+	width: 90%;
 }
 
 .activities-cards .card-title {
